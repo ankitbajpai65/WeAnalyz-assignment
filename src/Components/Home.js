@@ -1,6 +1,6 @@
 import React from 'react';
 import '../css/Home.css';
-import { Routes, Route, Link, useLocation } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Sidebar from './Sidebar';
 import Footer from './Footer';
 import Dashboard from './Dashboard.js';

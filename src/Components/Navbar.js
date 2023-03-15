@@ -1,8 +1,5 @@
 import React from 'react'
 import '../css/Navbar.css';
-import { Routes, Route, Link, useLocation } from "react-router-dom";
-import Home from './Home';
-import Signin from './Signin';
 import ButtonGroup from '@mui/material/ButtonGroup';
 import Button from '@mui/material/Button';
 import NotificationsIcon from '@mui/icons-material/Notifications';

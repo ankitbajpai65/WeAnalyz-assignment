@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/signin.css';
+import '../css/Signin.css';
 
 function Signin() {
     return (
@@ -7,8 +7,8 @@ function Signin() {
             <div className="signBox">
                 <h1>Helpdesk System</h1>
                 <form action="">
-                    <input type="text" placeholder="Username"/>
-                    <input type="text" placeholder="Username"/>
+                    <input type="text" placeholder="Username" />
+                    <input type="text" placeholder="Username" />
                     <button className="btn">Sign In</button>
                 </form>
             </div>

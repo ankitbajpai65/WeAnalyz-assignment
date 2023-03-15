@@ -1,8 +1,6 @@
 import React from 'react';
 import '../css/Home.css';
-// import { Link } from "react-router-dom";
-import { Routes, Route, Link, useLocation } from "react-router-dom";
-import Home from './Home';
+import { Link } from "react-router-dom";
 import Dashboard_img from '../images/Dashboard_Layout.png';
 import New_Ticket from '../images/New Ticket.png';
 import My_Ticket from '../images/Two Tickets.png';

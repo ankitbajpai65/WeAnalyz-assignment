@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/* SIDEBAR CSS */
+
 .sidebar {
     background-color: #E0DFDF;
     height: 85vh;
@@ -28,6 +30,8 @@
 .sidebarLinks {
     font-size: 1.6rem;
 }
+
+/* DASHBOARD CSS */
 
 .heading {
     margin: 3rem;
@@ -68,21 +72,18 @@
     font-size: 6.5rem;
 }
 
-/* new ticket */
+/* NewTicket CSS */
 
 .new_ticket {
-    /* border: 2px solid red; */
     font-size: 2rem;
 }
 
 .new_ticket label {
-    /* border: 2px solid red; */
     font-size: 1.7rem;
 }
 
 .new_ticket input,
 textarea {
-    /* border: 2px solid red; */
     border: none;
     outline: none;
     background-color: #DADADA;
@@ -96,21 +97,17 @@ textarea {
 
 }
 
-/* MyTicket */
+/* MyTicket CSS */
+
 .my_ticket {
     font-size: 1.6rem;
 }
-
-/* .searchBar {
-    position: relative;
-} */
 
 .searchIcon {
     position: absolute;
     right: 96rem;
     transform: scale(2);
 }
-
 
 .data div {
     background-color: #DADADA;

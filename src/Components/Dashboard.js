@@ -1,28 +1,40 @@
 import React from 'react';
 import Footer from './Footer';
 
+const box = [
+    {
+        spec: 'Total Tickets',
+        total: 12
+    },
+    {
+        spec: 'Total Solved',
+        total: 8
+    },
+    {
+        spec: 'Total Awaiting Approval',
+        total: 2
+    },
+    {
+        spec: 'Total in Progess',
+        total: 2
+    },
+]
 const Dashboard = () => {
     return (
         <>
             <div>
                 <p className="text-center heading">Dashboard</p>
                 <div className="boxDiv d-flex flex-row">
-                    <div id="box-1" className="box text-center">
-                        <p>Total Tickets</p>
-                        <h1>12</h1>
-                    </div>
-                    <div id="box-2" className="box text-center">
-                        <p>Total Solved</p>
-                        <h1>8</h1>
-                    </div>
-                    <div id="box-3" className="box text-center">
-                        <p>Total Awaiting Approval</p>
-                        <h1>2</h1>
-                    </div>
-                    <div id="box-4" className="box text-center">
-                        <p>Total in Progess</p>
-                        <h1>2</h1>
-                    </div>
+                    {
+                        box.map((val, index) => {
+                            return (
+                                <div id={`box-${index + 1}`} className="box text-center">
+                                    <p>{val.spec}</p>
+                                    <h1>{val.total}</h1>
+                                </div>
+                            );
+                        })
+                    }
                 </div>
             </div>
             <Footer className="footer" />
