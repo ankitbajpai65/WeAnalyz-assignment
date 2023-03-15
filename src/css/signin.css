@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.signinDiv {
+    background-color: #55D6C2;
+    height: 100vh;
+}
+
+.signBox {
+    height: 70rem;
+    width: 100rem;
+    background-color: #A2E2D8;
+    border: 2px solid #0D99FF;
+}
