@@ -26,6 +26,11 @@ function Sidebar() {
                     <span className="sidebarLinks">My Ticket</span>
                 </Link>
             </span>
+            <span className="d-block text-center p-3 mt-4">
+                <Link to="/signin" className="sideLinks">
+                    <button className="btn btn-primary loginBtn">Login</button>
+                </Link>
+            </span>
         </div>
     )
 }

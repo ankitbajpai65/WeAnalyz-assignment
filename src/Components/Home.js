@@ -6,6 +6,7 @@ import Footer from './Footer';
 import Dashboard from './Dashboard.js';
 import NewTicket from './NewTicket.js';
 import MyTicket from './MyTicket.js';
+import Signin from './Signin.js';
 
 function Home() {
     return (
@@ -31,6 +32,7 @@ function Home() {
                         <Route index element={<Dashboard />} />
                         <Route path="/new_ticket" element={<NewTicket />} />
                         <Route path="/my_ticket" element={<MyTicket />} />
+                        <Route path="/signin" element={<Signin />} />
                     </Routes>
                 </div>
                 <Footer />
