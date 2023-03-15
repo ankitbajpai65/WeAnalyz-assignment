@@ -1,5 +1,5 @@
 import React from 'react'
-import '../css/Navbar.css';
+import '../styles/Navbar.css';
 import ButtonGroup from '@mui/material/ButtonGroup';
 import Button from '@mui/material/Button';
 import NotificationsIcon from '@mui/icons-material/Notifications';

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/Home.css';
+import '../styles/Home.css';
 import { Routes, Route } from "react-router-dom";
 import Sidebar from './Sidebar';
 import Footer from './Footer';

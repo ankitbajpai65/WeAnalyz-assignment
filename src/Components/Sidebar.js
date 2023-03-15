@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/Home.css';
+import '../styles/Home.css';
 import { Link } from "react-router-dom";
 import Dashboard_img from '../images/Dashboard_Layout.png';
 import New_Ticket from '../images/New Ticket.png';

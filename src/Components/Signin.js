@@ -1,5 +1,5 @@
 import React from 'react';
-import "../css/Signin.css";
+import "../styles/Signin.css";
 
 function Signin() {
     return (
